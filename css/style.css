@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;
+  }
+  a{
+  	text-decoration: none;
+  }
+  body,h1,h2,h3,h4,h5,h6,p,span,a,button{
+  	font-family: 'Rubik', sans-serif;
+
+  }
+/*
+header section code
+*/
+header{
+	width: 100%;
+	padding: 12px 0;
+	border-bottom: 2px solid #eee;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+.navar{
+	display: flex;
+	justify-content: space-between;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 12px;
+	line-height: 50px;
+
+  }
+  #banner{
+  	width: 100%;
+  	padding: 40px 0;
+  	text-align: center;
+  }
+  .banner-content h1{
+  	font-size: 56px;
+  	margin-bottom: 16px;
+  }
+  .banner-content span{
+  	color: #008aff;
+  }
+  .banner-content p{
+  	font-weight: 300;
+  	margin-bottom: 32px;
+  }
+  /*about section css*/
+  #about{
+  	width: 100%;
+  	padding: 40px 0px;
+  }
+  .about-content{
+  	display: flex;
+  }
+  .left,.right{
+  	flex-basis: 50%;
+
+  }
+  .left{
+  	text-align: right;
+  	margin-right: 16px;
+  }
+
+  .right{
+  	text-align: left;
+  	margin-left: 16px;
+  }
+  .left h2{
+  	font-size: 42px;
+  	color: tomato;
+  	margin-bottom: 8px;
+  }
+  .left p {
+  	font-weight: 300;
+  	line-height: 1.5;
+  }
+  .right h2{
+  	font-size: 42px;
+  	color: #3f3d56;
+  }
+  /*service section css*/
+  #service{
+  	width: 100%;
+  	padding: 40px 0px;
+  }
+  .service-content{
+  	display: grid;
+  	grid-template-columns: auto auto auto;
+  }
+  .service-item{
+  	margin: 20px;
+  	padding: 16px;
+
+  }
+  .one{
+
+    background: aquamarine;
+
+  }
+  .two{
+  	background-color: #ebf9f4;
+  }
+  .three{
+  	background-color: grey;
+  }
+  .service-item h4{
+  	font-size: 20px;
+  	margin-bottom: 12px;
+  	font-weight: 500;
+  }
+  .service-item p{
+  	font-weight: 300;
+  }
+
+ footer{
+ 	background:  #008aff;
+ 	padding: 20px 0px;
+ }
+ .footer-icon ul li{
+ 	list-style: none;
+ 	display: inline-block;
+ 	margin: 16px;
+ 	text-align: center;
+
+ }
+ .footer-icon ul li a i{
+ 	height: 40px;
+ 	width: 40px;
+ 	background-color: #47c4ff;
+ 	text-align: center;
+ 	line-height: 40px;
+ 	color: white;
+ 	border-radius: 100%;
+    transition: 0.8s;
+ }
+  .footer-icon ul li a i:hover{
+ 	transform: rotate(360deg);
+ 	transition: 0.8s;
+ 	background-color: tomato;
+ }
